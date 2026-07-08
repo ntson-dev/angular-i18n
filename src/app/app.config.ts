@@ -5,15 +5,15 @@ import { routes } from './app.routes';
 import { registerLocaleData } from '@angular/common';
 import localeVi from '@angular/common/locales/vi';
 
-registerLocaleData(localeVi);
+// registerLocaleData(localeVi);
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
     provideRouter(routes),
-    {
-      provide: LOCALE_ID,
-      useValue: 'vi-VN'
-    }
+    // {
+    //   provide: LOCALE_ID,
+    //   useValue: 'vi-VN'
+    // }
   ]
 };

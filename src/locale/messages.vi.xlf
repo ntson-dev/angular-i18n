@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="5468757275907225559" datatype="html">
+        <source>Congratulations! Your app is running. 🎉</source>
+        <target>Chúc mừng! Ứng dụng của bạn đang chạy. 🎉</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.html</context>
+          <context context-type="linenumber">59,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3971457900193572863" datatype="html">
+        <source>angular-i18n</source>
+        <target>angular-i18n-vn</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1164700553027795086" datatype="html">
+        <source>Explore the Docs</source>
+        <target>Khám phá tài liệu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8921592434243629892" datatype="html">
+        <source>Learn with Tutorials</source>
+        <target>Học qua các hướng dẫn</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3842513348948439414" datatype="html">
+        <source>Prompt and best practices for AI</source>
+        <target>Prompt và các phương pháp hay nhất cho AI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5770256320186997375" datatype="html">
+        <source>CLI Docs</source>
+        <target>Tài liệu CLI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7903364132195168077" datatype="html">
+        <source>Angular Language Service</source>
+        <target>Dịch vụ ngôn ngữ Angular</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3015030205107423892" datatype="html">
+        <source>Angular DevTools</source>
+        <target>Công cụ phát triển Angular</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

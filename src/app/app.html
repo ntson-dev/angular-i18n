@@ -56,7 +56,7 @@
         </defs>
       </svg>
       <h1>Hello, {{ title() }}</h1>
-      <p>Congratulations! Your app is running. 🎉</p>
+      <p i18n>Congratulations! Your app is running. 🎉</p>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
@@ -64,15 +64,8 @@
         <div>
           {{ today | date }}
         </div>
-        {{ amount | currency: 'VND' : 'symbol' : '1.2-2' : 'vi-VN' }}
-        @for (item of [
-          { title: 'Explore the Docs', link: 'https://angular.dev' },
-          { title: 'Learn with Tutorials', link: 'https://angular.dev/tutorials' },
-          { title: 'Prompt and best practices for AI', link: 'https://angular.dev/ai/develop-with-ai'},
-          { title: 'CLI Docs', link: 'https://angular.dev/tools/cli' },
-          { title: 'Angular Language Service', link: 'https://angular.dev/tools/language-service' },
-          { title: 'Angular DevTools', link: 'https://angular.dev/tools/devtools' },
-        ]; track item.title) {
+        {{ amount | currency: 'USD' : 'symbol' : '1.2-2' : 'en-US' }}
+        @for (item of links; track item.title) {
           <a
             class="pill"
             [href]="item.link"

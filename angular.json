@@ -20,6 +20,7 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
+            "localize": ["vi"],
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -73,7 +74,10 @@
         }
       },
       "i18n": {
-        "sourceLocale": "vi"
+        "sourceLocale": "en",
+        "locales": {
+          "vi": "src/locale/messages.vi.xlf"
+        }
       }
     }
   }
